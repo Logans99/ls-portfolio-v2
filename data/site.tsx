@@ -61,6 +61,36 @@ export const site = {
   ],
   projects: [
     {
+      title: "Time-Off Management System",
+      subtitle: "Internal HR Workflow Portal",
+      role: "Full-Stack Software Developer",
+      overview:
+        "Pitched, designed, and built a full-stack internal portal allowing employees to request time off and managers and HR to review, approve, or modify requests — replacing a manual paper and email process used across two locations.",
+      problem:
+        "The company had no centralized system for managing time-off requests. Employees submitted requests via paper or email, creating slow turnaround times, processing errors, and no visibility into team availability.",
+      solution:
+        "Designed and built a full-stack multi-role portal end-to-end, implementing a structured approval workflow with real-time notifications, a department absence calendar, and bilingual support to serve both office and manufacturing floor employees.",
+      contributions: [
+        "Architected and built the entire application end-to-end, from database schema to frontend interface",
+        "Implemented a multi-stage approval workflow across three role tiers: employee, manager, and HR",
+        "Built real-time notification badges using database-driven flags to surface pending actions on each user's portal tile",
+        "Developed automatic email notifications triggered at each stage of the approval workflow",
+        "Created a department-level absence calendar integrating live query data for manager visibility",
+        "Implemented role-based access control with read-only access for customer service and full edit access for managers and HR",
+        "Delivered a bilingual English/Spanish interface based on direct feedback from end users",
+        "Supported multiple managers and HR staff per department as requested by management",
+      ],
+      impact: [
+        "Replaced a manual paper and email process for 50+ employees across two locations",
+        "Actively used and maintained in production for over a year",
+        "Reduced processing errors and turnaround time for time-off approvals",
+        "Gave managers real-time visibility into department availability through an absence calendar",
+      ],
+      tech: ["JavaScript", "HTML", "CSS", "MySQL", "ColdFusion"],
+      confidential: true,
+      href: null,
+    },
+    {
       title: "TileTracker",
       subtitle: "Planning & Visualization Tool for Marketing Operations",
       role: "Full-Stack Software Developer",
