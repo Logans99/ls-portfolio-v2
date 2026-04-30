@@ -10,35 +10,37 @@ export const site = {
   intro: "I build accessible, polished experiences for the web.",
   about: [
     <>
-      I'm a {hi("full-stack software engineer")} with experience building scalable web
-      applications and improving production systems. I work primarily with{" "}
-      {hi("Angular, TypeScript, and SQL")}, and focus on creating reliable,
-      high-performance applications that deliver a strong user experience. I care
-      about writing clean, maintainable code and building systems that continue to
-      scale as they grow.
+      I'm a {hi("full-stack software engineer")} with 3 years of experience building
+      and improving web applications in production environments. I work primarily with{" "}
+      {hi("Angular, TypeScript, Node.js, and SQL")}, and focus on creating reliable,
+      high-performance applications that solve real business problems. I care about
+      writing clean, maintainable code and building systems that scale.
     </>,
     <>
-      Currently, I contribute to the development of a{" "}
-      {hi("large-scale e-commerce platform")}, where I work across{" "}
-      {hi("frontend, backend, and deployment workflows")}. I've built core product
-      selection and purchasing flows, developed responsive interfaces, and optimized
-      backend services and database queries to improve performance and reliability.
-      My work often involves balancing user experience with system efficiency in a
-      production environment.
+      At my current role I contribute to a{" "}
+      {hi("large-scale e-commerce platform modernization")}, rebuilding a legacy
+      ColdFusion system into a modern Angular and TypeScript frontend with Lucee on
+      the backend. My work includes{" "}
+      {hi("frontend performance optimization, SQL query design")}, and full-stack
+      feature development across a collaborative team using Git-based workflows.
     </>,
     <>
-      I've also built internal tools, including a mapping application that helps
-      teams visualize and manage real-world data. Using technologies like{" "}
-      {hi("Node.js, Leaflet, and OpenStreetMap")}, I developed interactive features
-      such as clustering, role-based access, and dynamic data visualization to
-      support planning and decision-making workflows.
+      I've also built and shipped internal tools independently from the ground up.
+      I designed and built a{" "}
+      {hi("full-stack time-off management portal")} used daily by 50+ employees
+      across two locations, replacing a manual paper process with a structured
+      multi-role approval workflow, real-time notifications, and a bilingual
+      English/Spanish interface. I also built{" "}
+      {hi("TileTracker")}, an internal mapping application using Node.js, Leaflet,
+      and OpenStreetMap that replaced a spreadsheet workflow for marketing and
+      operations teams.
     </>,
     <>
-      I enjoy working at the intersection of frontend and backend, where I can take
-      features from idea to production. Outside of work, I spend time continuing to
-      improve my skills, exploring new technologies, and building projects that help
-      me think more deeply about{" "}
-      {hi("performance, scalability, and system design")}.
+      I enjoy working across the full stack, taking features from idea to production.
+      Outside of work I focus on sharpening my skills in{" "}
+      {hi("system design, backend architecture, and security")}, including actively
+      building out authentication systems. I'm always looking for opportunities to
+      work on harder problems at greater scale.
     </>,
   ],
   experience: [
@@ -92,27 +94,26 @@ export const site = {
     },
     {
       title: "TileTracker",
-      subtitle: "Planning & Visualization Tool for Marketing Operations",
+      subtitle: "Internal Mapping Tool for Marketing & Operations",
       role: "Full-Stack Software Developer",
       overview:
-        "Built an internal mapping platform to visualize commercial client locations and installed ceiling tiles, enabling marketing and design teams to plan and coordinate photography for commercial properties.",
+        "Designed and built a full-stack internal mapping tool end-to-end, replacing a manual spreadsheet process for tracking commercial client locations and ceiling tile installations — now actively used by 10 employees across marketing, social media, and customer service teams.",
       problem:
-        "Marketing and design teams lacked a centralized way to identify and prioritize locations for photography, making it difficult to plan shoots and understand geographic distribution of completed installations.",
+        "Teams tracked commercial client locations and installation data in spreadsheets, making it difficult to visualize geographic distribution, prioritize locations, or coordinate across departments efficiently.",
       solution:
-        "Developed a full-stack mapping application that transformed installation data into an interactive geographic interface, allowing teams to efficiently explore locations and plan photography efforts.",
+        "Built a full-stack mapping application that transformed raw installation data into an interactive geographic interface, with role-based access control to support different teams with different needs.",
       contributions: [
-        "Built a full-stack application using Angular and Node.js",
-        "Integrated interactive maps using Leaflet.js and OpenStreetMap",
-        "Implemented marker clustering to handle large sets of location data",
-        "Designed color-coded markers to represent installation attributes and statuses",
-        "Developed RESTful APIs to manage and serve location and installation data",
-        "Created a role-based interface enabling non-technical users to explore and manage data",
+        "Architected and built the entire application end-to-end, including backend REST API and database schema from scratch",
+        "Integrated interactive maps using Leaflet.js and OpenStreetMap with clustering and color-coded markers for visualizing client locations and installation statuses",
+        "Implemented role-based access control with read-only permissions for customer service and full edit access for marketing and social media teams",
+        "Developed RESTful APIs using Node.js and Express to manage and serve location and installation data",
+        "Containerized the application using Docker for consistent deployment",
       ],
       impact: [
-        "Improved planning efficiency for photography and marketing campaigns",
-        "Enabled teams to quickly identify high-priority or visually valuable locations",
-        "Increased visibility into geographic distribution of installations across clients",
-        "Reduced manual coordination between marketing and design teams",
+        "Replaced a manual spreadsheet workflow actively used by 10 employees across three departments",
+        "Gave marketing and social media teams the ability to edit and manage installation data directly without developer involvement",
+        "Provided customer service with read-only visibility into client location data, reducing cross-team information requests",
+        "Enabled geographic visualization of installation data that was previously only accessible as flat spreadsheet rows",
       ],
       tech: ["Angular", "Node.js", "Leaflet.js", "OpenStreetMap", "SQL", "Docker"],
       confidential: true,
@@ -123,25 +124,26 @@ export const site = {
       subtitle: "Flagship Platform Modernization",
       role: "Full-Stack Software Developer",
       overview:
-        "Contributing to a ground-up rebuild of a flagship e-commerce platform serving thousands of users daily, focused on improving scalability, performance, and user experience across core purchasing workflows.",
+        "Contributing to a full-stack modernization of a legacy e-commerce platform, rebuilding the frontend in Angular/TypeScript and migrating backend services from ColdFusion to Lucee.",
       problem:
-        "The existing platform faced limitations in scalability, maintainability, and user experience, making it difficult to support growing customer demand and modern frontend expectations.",
+        "The existing platform was slow, difficult to use, and built on outdated technology — creating a poor customer experience and making it difficult to maintain and scale.",
       solution:
-        "Working as part of a full-stack team to rebuild the platform from the ground up, delivering a modernized architecture and improved customer-facing experience.",
+        "Working as part of a full-stack team to rebuild the platform from the ground up, delivering a modernized architecture with improved performance and a streamlined purchasing experience.",
       contributions: [
-        "Developed core product selection and purchasing flows used by customers",
-        "Built responsive, high-performance interfaces using Angular, TypeScript, and SCSS",
-        "Contributed to backend services in ColdFusion to support new application workflows",
-        "Optimized database queries and backend logic to improve performance and reliability",
+        "Rebuilt the frontend in Angular and TypeScript as part of a two-person frontend team",
+        "Built a high-performance product image carousel with lazy loading, AVIF/WebP format fallbacks, and compression optimization for varying browser capabilities",
+        "Contributed to backend service migration from ColdFusion to Lucee",
+        "Designed and optimized SQL queries for backend data services supporting product selection and purchasing flows",
+        "Collaborated across a three-person backend team using Git-based workflows including code reviews and branch management",
         "Participated in containerized deployment workflows using Docker",
       ],
       impact: [
-        "Improved usability of key customer purchasing journeys",
-        "Enhanced performance and reliability of a high-traffic production system",
-        "Supported scalability for a platform serving thousands of daily users",
-        "Delivered a consistent, responsive experience across devices",
+        "Modernizing a legacy platform serving real customers daily",
+        "Reduced image load times through format optimization and lazy loading",
+        "Improved frontend maintainability by migrating to Angular and TypeScript",
+        "Streamlined checkout experience by reducing complexity in purchasing flows",
       ],
-      tech: ["Angular", "TypeScript", "SCSS", "ColdFusion", "SQL", "Docker"],
+      tech: ["Angular", "TypeScript", "SCSS", "Lucee", "ColdFusion", "SQL", "Docker"],
       confidential: true,
       href: null,
     },
