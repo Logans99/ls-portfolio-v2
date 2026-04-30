@@ -3,7 +3,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 const hi = (text: string) => (
   <span className="text-slate-100 font-medium">{text}</span>
 );
-
 export const site = {
   name: "Logan Santos",
   role: "Full Stack Software Engineer",
